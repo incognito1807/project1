@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/signup.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="signup">
+            <h1>Đăng ký tài khoản thư viện</h1>
+
+                <label>Họ và tên</label><br>
+            <div class="name">
+                <i class="fas fa-user"></i>
+                <input type="text" name="name" placeholder="name" required>
+            </div>
+
+                <label>Email</label><br>
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email" placeholder="email" required>
+            </div>
+
+                <label>Tên đăng nhập</label><br>
+            <div class="username">
+                <i class="fas fa-user-check"></i>
+                <input type="text" name="username" placeholder="username" required>
+            </div>
+
+                <label>Mật khẩu</label><br>
+            <div class="pass">
+                <i class="fas fa-lock"></i>
+                <input id = "pass" type="password" name="pass" placeholder="password" required>
+                <img onclick="hidePass()" src="..//img/eye.jpg">
+                <script type="text/javascript" src="../javascript/hidepass.js"></script>
+            </div>
+            <button>Gửi</button>
+        </div>
+    </body>
+</html>
+
+
