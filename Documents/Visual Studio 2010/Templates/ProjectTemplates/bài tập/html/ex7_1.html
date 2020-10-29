@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Kiểm tra một số có phải số Fibonacci không</h1>
+        <label>Mời bạn nhập 1 số: </label><br>
+        <input id="number" type="number" placeholder="Nhập một số nguyên dương"><br>
+        <button onclick="myFunction()" id="btn1">Check</button>
+
+        <p id="output"></p>
+        <p id="check"></p>
+
+        <script type="text/javascript">
+            var fib = (n) => {
+                var f0=1, f1=1;
+                var i=1;
+                if(n<2) 
+                    return 1;
+                while(i<n){
+                    f=f0+f1;
+                    f0=f1;
+                    f1=f;
+                    i++
+                }
+                return f;
+            }
+
+            var check = (numb) => {
+                var inp = parseInt(numb);
+                var i=0;
+                while(inp>fib(i)){
+                    i++;
+                }
+                var z = (inp == fib(i)) ? document.getElementById("check").innerHTML = "Đây là số Fibonacci!" 
+                    : document.getElementById("check").innerHTML = "Đây không phải số Fibonacci!";
+                return z;
+            }
+
+            function myFunction(){
+                var numb = document.getElementById("number").value;
+                if(numb<0){
+                    alert("Số đã nhập là số âm, mời bạn nhập số dương để kiểm tra!");
+                } else{
+                    document.getElementById("output").innerHTML = "Số bạn đã nhập là: " + numb;
+                    //check();
+                    var res = check(numb);
+                }
+            }
+        </script>
+    </body>
+</html>

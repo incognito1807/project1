@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(169, 196, 207);    
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 139, 0);
+    font-size: 250%;
+}
+
+.signup{
+    width: 400px;
+    height: 450px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    opacity: 75%;
+    background-color: white;
+    line-height: 200%;
+}
+.name{
+	width: 250px;
+    height:auto;
+	border:1px solid #167bff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.email{
+	width: 250px;
+    height:auto;
+	border:1px solid #167bff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.username{
+	width: 250px;
+    height:auto;
+	border:1px solid #167bff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.pass{
+	width: 250px;
+    height:auto;
+	border:1px solid #167bff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.pass input{
+    width: 160px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding-left: 12px;
+}
+
+i{
+    padding-left: 8px;
+}
+
+label{
+    font-family: sans-serif;
+    width: 30px;
+    margin-left: 74px;
+    font-size: 110%;
+}
+
+img{
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+button{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 105%;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #7197ff, #00dbde);
+    margin-left: 125px;
+}
+button:hover{
+    background: linear-gradient(to right, #94d7fd, #516eff); 
+}

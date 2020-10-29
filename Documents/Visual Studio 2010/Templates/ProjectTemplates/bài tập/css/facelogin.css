@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+    background-color: #e3e4e6;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.index{
+    display: flex;
+}
+
+h1{
+    color:rgb(54, 58, 250);
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 310%;
+}
+
+.dangnhap{
+    font-size: 200%;
+}
+
+.login{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    opacity: 75%;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.signin{
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#0616ee;
+    color: white;
+    font-size: 110%;
+}
+
+.signup{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color:#08ce08;
+    color: white;
+    font-size: 110%;
+}
+
+.enter{
+    width: 330px;
+    height: auto;
+    border: 1px solid #167bff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enter input{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 194px;
+    padding-left: 15px;
+    background: none;
+}
+p{
+    margin-left: 750px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dem</title>
+    </head>
+    <body>
+        <h1>Đếm số người trong mảng điểm cao hơn 5</h1>
+        <p id="demo"></p>
+        <script type="text/javascript">
+            //input
+            const array = [
+                {id : 1, name : "an", mark:9},
+                {id : 2, name : "binh", mark:1},
+                {id : 3, name : "hoa", mark:7},
+                {id : 4, name : "nam", mark:6}
+            ];
+            //ham dem
+            function dem(){
+                var d = 0;
+                for(var i = 0; i < array.length; i++){
+                    if(array[i].mark > 5)
+                        d++;
+                }
+                return d;
+            }
+            document.getElementById("demo").innerHTML = "Số người điểm cao hơn 5 là: " + dem(array);
+        </script>
+    </body>
+</html>
