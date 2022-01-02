@@ -1,10 +1,15 @@
 # Project Capstone: Thiết kế Website thuê xe EcobikeRental
 
 GV hướng dẫn: TS. Nguyễn Thị Thu Trang
+
 Nhóm SV thực hiện: Nhóm 7 - KSCQ.20211
+
 Phạm Đức Hòa - 20183918
+
 Nguyễn Thanh Tú - 20184002
+
 Bùi Quang Thái - 20183981
+
 Trần Minh Quang - 20183972
 
 ## 1. Mục tiêu
