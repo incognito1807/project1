@@ -21,7 +21,7 @@ Xây dựng Website thuê xe EcobikeRental gồm các chức năng:
 * Xem thông tin xe
 * Quét mã QR xe
 * Thuê xe (trả tiền cọc)
-* Trả xe (thanh toán tiền thuê và lấy lại cọc
+* Trả xe (thanh toán tiền thuê và lấy lại cọc)
 * Xem thông tin thẻ thanh toán
 
 ## 2. Công nghệ sử dụng
@@ -42,9 +42,7 @@ Trong đồ án này, em đã sử dụng:
 ### Thêm các biến môi trường
 
 * Download [Tomcat 8.5.73](https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.zip) và cài đặt
-* Chạy Project Backend bằng cách chuột phải vào project chọn `Run on server`
-* download fontawesome 4.7.0 tại [get fontawesome 4.7.0](https://fontawesome.com/v4.7.0/get-started/#modal-download)
-* giải nén file zip vừa tải và sao lưu vào thư mục `public/css`
+* Chạy `npm install` trong thư mục Vue đã mở ở `Visual studio code` để thêm `node-modules` cho project
 
 ## 4. Khởi chạy dự án (available scripts)
 
