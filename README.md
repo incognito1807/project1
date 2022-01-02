@@ -1,71 +1,65 @@
-GV hướng dẫn: TS. Đào Thành Chung
+# Project Capstone: Thiết kế Website thuê xe EcobikeRental
 
-SV thực hiện: Nguyễn Thanh Tú - 20184002
+GV hướng dẫn: TS. Nguyễn Thị Thu Trang
+Nhóm SV thực hiện: Nhóm 7 - KSCQ.20211
+Phạm Đức Hòa - 20183918
+Nguyễn Thanh Tú - 20184002
+Bùi Quang Thái - 20183981
+Trần Minh Quang - 20183972
 
 ## 1. Mục tiêu
 
-Xây dựng Website Quản lý công việc với các tính năng: 
+Xây dựng Website thuê xe EcobikeRental gồm các chức năng:
 
-* đăng nhập, đăng xuất
-* trang chủ
-* thêm công việc
-* sửa công việc
-* xóa công việc
-* sắp xếp công việc
-* tìm công việc
-* xem thông tin cá nhân
+* Xem danh sách các bãi cho thuê xe
+* Xem danh sách xe trong 1 bãi xe
+* Xem thông tin xe
+* Quét mã QR xe
+* Thuê xe (trả tiền cọc)
+* Trả xe (thanh toán tiền thuê và lấy lại cọc
+* Xem thông tin thẻ thanh toán
 
 ## 2. Công nghệ sử dụng
 
 Trong đồ án này, em đã sử dụng:
 
-* ngôn ngữ `ReactJS`, `html`, `javascript`
-* kết hợp `react-redux`
+* Ngôn ngữ `Java`, `Vuejs`
+* IDE `Eclipse`, `Vissual Studio Code`
 
 ## 3. Hướng dẫn cài đặt
 
 ### Tải mã nguồn
 
-* download thư mục `src` ở dạng file zip và giải nén
-* mở thư mục đã giải nén bằng `sublime text` hoặc `visual studio code`
+* Download mã nguồn trong thư mục [Construction/CapstoneProject](https://github.com/phamhoa2192k/TKXDPM.KSCQ.20211-07/tree/release/final_submission/FinalProject/Construction/CapstoneProject)
+* Mở thư mục đã giải nén bằng `Eclipse`
+* Mở `Visual studio code` và mở folder [Construction/CapstoneProject/src/main/vue](https://github.com/phamhoa2192k/TKXDPM.KSCQ.20211-07/tree/release/final_submission/FinalProject/Construction/CapstoneProject/src/main/vue)
 
 ### Thêm các biến môi trường
 
-* download boostrap 3.1.1 tại [get bootstrap 3.1.1](https://github.com/twbs/bootstrap/archive/v3.1.1.zip)
-* giải nén file zip vừa tải và sao lưu vào thư mục `public/css`
+* Download [Tomcat 8.5.73](https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.zip) và cài đặt
+* Chạy Project Backend bằng cách chuột phải vào project chọn `Run on server`
 * download fontawesome 4.7.0 tại [get fontawesome 4.7.0](https://fontawesome.com/v4.7.0/get-started/#modal-download)
 * giải nén file zip vừa tải và sao lưu vào thư mục `public/css`
 
-## 4. Hướng dẫn sử dụng (available scripts)
+## 4. Khởi chạy dự án (available scripts)
 
-Trong thư mục dự án, chúng ta có thể chạy:
+### Chạy `Mysql` trên máy (có thể sử dụng các phần mềm như `Xampp Control`
 
-### `npm start`
+### Tạo Database bằng cách vào `Mysql Workbench` và mở database-script và `Excute` toàn bộ
 
-Chạy ứng dụng ở chế độ phát triển. <br>
-Mở [http://localhost:3000](http://localhost:3000) để xem trong trình duyệt.
+### Chạy Project Backend bằng cách:
 
-Trang sẽ tải lại nếu chúng ta thực hiện chỉnh sửa. <br>
-Chúng ta cũng sẽ thấy bất kỳ lỗi sơ suất nào trong `console`.
+* Mở lại project đã mở trong `Eclipse`
+* Vào file `Configs.java` trong thư mục `main/java/utils` và config lại `DB_USER`, `DB_PASS` là người dùng và mật khẩu Mysql để truy cập database
+* Chuột phải vào project chọn `Run on server`
 
-### `npm test`
+### Chạy Project Frontend bằng cách:
 
-Khởi chạy thử nghiệm ở chế độ xem tương tác.
+* Mở lại project Vue đã mở trong `Visual studio code`
+* Chọn `Terminal` -> `New Terminal`
+* Nhập `npm run serve` và enter để khởi chạy dự án
 
-### `npm run build`
-
-Xây dựng ứng dụng để sản xuất vào thư mục `build`. <br>
-Nó kết hợp chính xác React trong chế độ sản xuất và tối ưu hóa bản dựng để có hiệu suất tốt nhất.
-
-### `npm run eject`
-
-**Lưu ý: đây là thao tác một chiều. Sau khi chúng ta `eject`, chúng ta không thể quay lại!**
-
-Nếu chúng ta không hài lòng với các lựa chọn cấu hình và công cụ xây dựng, chúng ta có thể `eject` bất kỳ lúc nào. 
-Lệnh này sẽ loại bỏ sự phụ thuộc của bản dựng duy nhất khỏi dự án của bạn.
-
-Chúng ta không cần phải sử dụng `eject`. Bộ tính năng được quản lý phù hợp với các triển khai vừa và nhỏ và chúng ta 
-không bắt buộc phải sử dụng tính năng này.
+### Dự án đã khởi chạy tại : `http://localhost:8080/`
 
 ## 5. Video demo
-Video demo đã được em thêm trong thư mục [`media`](https://github.com/incognito1807/qlcv/tree/master/media)
+Video demo đã được chúng em thêm trong thư mục [`Demo`](https://github.com/phamhoa2192k/TKXDPM.KSCQ.20211-07/tree/release/final_submission/FinalProject/Demo)
